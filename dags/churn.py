@@ -1,7 +1,6 @@
-# dags/churn.py
-
 import pendulum
 from airflow.decorators import dag, task
+
 
 @dag(
     schedule='@once',
